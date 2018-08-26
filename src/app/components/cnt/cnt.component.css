@@ -1,0 +1,7 @@
+.menu {
+    border: 1px red solid;
+}
+
+.menu > li {
+    border: 1px purple solid;
+}
