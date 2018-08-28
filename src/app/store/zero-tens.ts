@@ -1,4 +1,4 @@
 export interface ZeroTenState {
     numbres: number[];
-    strings: { [index: number] : string} ;
+    strings: { [index: number]: string };
 }

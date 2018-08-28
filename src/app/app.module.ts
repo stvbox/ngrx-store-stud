@@ -15,8 +15,8 @@ import { featureReducers } from './store/feature';
   ],
   imports: [
     BrowserModule,
-    StoreModule.forRoot({ cnt: counterReducer },{ metaReducers }),
-    StoreModule.forFeature('fea', featureReducers)
+    StoreModule.forRoot({ cnt: counterReducer }, { metaReducers }),
+    StoreModule.forFeature('feature', featureReducers)
   ],
   providers: [],
   bootstrap: [AppComponent]

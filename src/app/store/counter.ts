@@ -32,6 +32,6 @@ export function counterReducer(state = 0, action: CounterActionsUnion) {
         case CounterActionTypes.RESET:
             return 0;
         default:
-            return state
+            return state;
     }
 }
